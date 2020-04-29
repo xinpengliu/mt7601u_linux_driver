@@ -354,9 +354,10 @@ mt76_ampdu_action(struct ieee80211_hw *hw, struct ieee80211_vif *vif,
 	struct ieee80211_sta *sta = params->sta;
 	u16 *ssn = &params->ssn;
 	u16 tid = params->tid;
+#endif
 	struct mt7601u_dev *dev = hw->priv;
 	struct mt76_sta *msta = (struct mt76_sta *) sta->drv_priv;
-#endif
+
 	WARN_ON(msta->wcid.idx > GROUP_WCID(0));
 
 	switch (action) {
