@@ -11,4 +11,6 @@ tp-link usb wifi TL-WN725N
 #lsusb
 Bus 001 Device 007: ID 148f:7601 Ralink Technology, Corp. MT7601U Wireless Adapter
 
-this driver test work normmally in centos 7.2 kernel:3.10.0-862.el7.x86_64.
+this driver work normmally in centos 7.2 kernel:3.10.0-862.el7.x86_64.
+
+if you have any question,can mail me to danielliu861@gmail.com
